@@ -4,7 +4,7 @@ from skills.skill import Skill
 
 def init():
     global container
-    container = IntentContainer("assets/intent_cache")
+    container = IntentContainer("lib/intent_cache")
 
     for skill in Skill.__subclasses__():
         skill.init(container)
