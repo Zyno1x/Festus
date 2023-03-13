@@ -1,0 +1,4 @@
+[2023-03-13 12:29:20,930] | INFO | Recognized Command: what is today
+[2023-03-13 12:29:20,936] | INFO | Felix: Today is monday, march thirteenth, twenty twenty three
+[2023-03-13 12:29:46,260] | INFO | Recognized Command: what is the time right now
+[2023-03-13 12:29:46,261] | INFO | Felix: The Time is 12:29 PM
