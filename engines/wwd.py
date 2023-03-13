@@ -8,7 +8,7 @@ audio_stream = None
 
 try:
   porcupine = pvporcupine.create(access_key='wc2loO2+wQFfHyzgIV0Pc0NECYrt3hMUYKw4yxVitZUfIMs4e9brEw==',
-                                 keyword_paths=["assets/Felix_en_linux_v2_1_0.ppn"])
+                                 keyword_paths=["lib/Felix_en_linux_v2_1_0.ppn"])
 
   pa = pyaudio.PyAudio()
 
