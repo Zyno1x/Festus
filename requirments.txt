@@ -1,4 +1,3 @@
-padatious
 fann2==1.0.7
 SpeechRecognition
 lingua_franca
