@@ -19,7 +19,7 @@ async def edge_speak(text):
 
 def mimic_speak(text):
     os.system(
-        f"assets/mimic1/./mimic --setf duration_stretch=1.2 -t \"{text}\"")
+        f"lib/mimic1/./mimic --setf duration_stretch=1.2 -t \"{text}\"")
 
 
 def speak(text, relay=None):
