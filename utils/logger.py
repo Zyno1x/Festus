@@ -1,11 +1,12 @@
 import logging
 import datetime
 
-now = str(datetime.datetime.now())
-timedate = now[:-7]
+def init():
+  now = str(datetime.datetime.now())
+  timedate = now[:-7]
 
-logging.basicConfig(filename='logs/' + timedate + '.log', level=logging.DEBUG,
-                    format='[%(asctime)s] | %(levelname)s | %(message)s')
+  logging.basicConfig(filename='logs/' + timedate + '.log', level=logging.DEBUG,
+                      format='[%(asctime)s] | %(levelname)s | %(message)s')
 
 
 def log_format(text, level):
