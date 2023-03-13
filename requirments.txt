@@ -1,6 +1,6 @@
 padatious
-speech_recognition
-lingua_france
+SpeechRecognition
+lingua_franca
 pvporcupine
 edge_tts
 playsound
