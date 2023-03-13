@@ -1,0 +1,6 @@
+padatious
+speech_recognition
+lingua_france
+pvporcupine
+edge_tts
+playsound
