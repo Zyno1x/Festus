@@ -14,7 +14,7 @@ class Skill:
         skill = cls.skill_class.get(intent)
         skill.output(arg1)
 
-    @classmethod
-    def init_all(cls):
+    @staticmethod
+    def init_all():
         from skills.TimeSkill import time
         from skills.DateSkill import date
